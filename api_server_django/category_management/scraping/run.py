@@ -41,8 +41,8 @@ class InputError(ExceptionError):
         # self.expression = expression
         # self.message = message
 
-connection = mysql.connector.connect(host='192.168.114.105',
-                                                user='smiles',
+connection = mysql.connector.connect(host='localhost',
+                                                user='root',
                                                 password='', use_pure=True)
 
 
